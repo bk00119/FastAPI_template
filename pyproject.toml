@@ -1,0 +1,27 @@
+[project]
+name = "fastapi_template"
+version = "0.1.0"
+description = "Basic template for Fast API"
+authors = [
+    {name = "Brian Kim", email = "briankim00119@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.1.15",
+    "mypy>=1.8.0",
+    "flake8>=7.0.0",
+    "black>=24.1.1",
+]
