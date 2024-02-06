@@ -11,5 +11,6 @@ Linter: Ruff
 
 ## Instructions
 ### Run the server
-1. `uvicorn main:app --reload`
-2. Check the API docs (Provided by Swagger UI): http://127.0.0.1:8000/docs
+1. `cd src/fastapi_template`
+2. `uvicorn main:app --reload`
+3. Check the API docs (Provided by Swagger UI): http://127.0.0.1:8000/docs
